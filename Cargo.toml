@@ -1,5 +1,5 @@
 [package]
-name = "toebean"
+name = "floatdrive"
 version = "0.1.0"
 edition = "2021"
 
@@ -20,6 +20,8 @@ panic-probe = { version = "0.3", features = ["print-defmt"] }
 futures = { version = "0.3.17", default-features = false, features = ["async-await"] }
 heapless = { version = "0.8", default-features = false }
 static_cell = "2.0.0"
+fixed = "1.27.0"
+foc = "0.3.0"
 
 
 [patch.crates-io]
